@@ -1,5 +1,5 @@
 {
-  "name": "server-node",
+  "name": "server-node-part2",
   "version": "1.0.0",
   "description": "Basic Rest API Server",
   "main": "src/index.js",
@@ -28,5 +28,13 @@
   },
   "dependencies": {
     "express": "^4.17.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vsmithbe-git/server-node-part2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vsmithbe-git/server-node-part2/issues"
+  },
+  "homepage": "https://github.com/vsmithbe-git/server-node-part2#readme"
 }
