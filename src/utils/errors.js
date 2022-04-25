@@ -1,7 +1,7 @@
 import logger from './logger'
 
 const notFound = (req, res, next) => {
-  const error = new Error('Not Found - ${req.url}')
+  const error = new Error(`Not Found - ${req.url}`)
   res.status(404)
   next(error)
 }
